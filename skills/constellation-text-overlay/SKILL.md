@@ -7,6 +7,8 @@ description: Recreate a CapCut constellation title effect with the user's chosen
 
 Make a short video in which a phrase appears as a constellation: small stars are scattered across the frame, selected stars carry one word each, a single pen stroke connects them in reading order, and the composition draws over the background footage.
 
+Before editing, confirm that this agent has a working CapCut editing connection. If it does not, explain the missing setup and help plan the effect, but do not claim to have created a CapCut draft. In Codex, direct first-time users to CapCut's [official installation and authorization guide](https://sf16-sg.tiktokcdn.com/obj/eden-sg/962370eh7nupenuhbo/capcut_codex_plugin/SKILL.md); resume editing only after the connection works.
+
 ## Choose the content
 
 The exact on-screen text is required input. If the user has not specified it for this video, ask **“What exact words should appear on the video?”** before building the effect. Do not silently use the tutorial's text, this skill's examples, or wording from a previous video. Reuse earlier wording only when the user explicitly says to keep it. Preserve their spelling, capitalization, and word order. If footage is also missing, ask for the text and clip together.

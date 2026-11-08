@@ -18,7 +18,15 @@ To install only one effect, replace `--all` with its name:
 gh skill install qiqibuilds/capcut-video-skills constellation-text-overlay --agent codex --scope user
 ```
 
-The skills tell Codex how to edit; they do not provide a CapCut connection. Enable and connect the CapCut plugin in Codex before asking it to create a cloud draft. An existing desktop-only project may need to be opened in the desktop editor.
+The skills tell Codex how to edit; they do not provide a CapCut connection. If the CapCut plugin is not installed yet, paste this into Codex on the computer where you use Codex Desktop:
+
+```text
+Download and read https://sf16-sg.tiktokcdn.com/obj/eden-sg/962370eh7nupenuhbo/capcut_codex_plugin/SKILL.md, then follow it exactly to install and authorize the CapCut plugin.
+```
+
+The [official setup guide](https://sf16-sg.tiktokcdn.com/obj/eden-sg/962370eh7nupenuhbo/capcut_codex_plugin/SKILL.md) checks an existing installation before changing it and guides account authorization. After connecting, ask Codex to create the draft. An existing desktop-only project may need to be opened in the desktop editor.
+
+The installation format also supports Claude Code by changing `--agent` to `claude-code`. The CapCut editing workflow has been tested in Codex; Claude Code needs compatible CapCut editing tools before it can build a draft.
 
 ## Available effects
 
