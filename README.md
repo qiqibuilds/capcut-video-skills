@@ -37,6 +37,10 @@ The installation format also supports Claude Code by changing `--agent` to `clau
 
 The constellation's shape guides the layout. The line connects exactly one star per word; other same-size stars stay unconnected.
 
+## Building new skills
+
+The [CapCut skill builder guide](AGENTS.md) keeps future effects consistent: asset preparation, connection setup, editable drafts, preview checks, and the matching website page.
+
 ## Try it
 
 > Use `$story-tapping-intro` with my opening screen, reach footage, and reveal video. Build the effect in CapCut and let me preview it.
