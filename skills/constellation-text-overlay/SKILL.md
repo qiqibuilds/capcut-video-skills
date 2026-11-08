@@ -7,7 +7,7 @@ description: Recreate a CapCut constellation title effect with the user's chosen
 
 Make a short video in which a phrase appears as a constellation: small stars are scattered across the frame, selected stars carry one word each, a single pen stroke connects them in reading order, and the composition draws over the background footage.
 
-Before editing, confirm that this agent has a working CapCut editing connection. If it does not, explain the missing setup and help plan the effect, but do not claim to have created a CapCut draft. In Codex, direct first-time users to CapCut's [official installation and authorization guide](https://sf16-sg.tiktokcdn.com/obj/eden-sg/962370eh7nupenuhbo/capcut_codex_plugin/SKILL.md); resume editing only after the connection works.
+Before editing, confirm that this agent has a working CapCut editing connection. If Codex has no usable CapCut plugin, tell the user: **“CapCut isn't connected yet. I can set up the official CapCut plugin, guide you through account authorization, then continue this edit. Would you like me to do that?”** If they already asked for setup, continue without asking again. When setup is authorized, download and read CapCut's [official installation and authorization guide](https://sf16-sg.tiktokcdn.com/obj/eden-sg/962370eh7nupenuhbo/capcut_codex_plugin/SKILL.md) and follow it through first use before resuming this video request. Keep the user's footage, words, color, and shape choices across any required chat handoff. If setup is declined or the connection remains unavailable, help plan the effect but do not claim to have created a CapCut draft. In another agent, explain that a compatible CapCut editing connection is required.
 
 ## Choose the content
 

@@ -7,7 +7,7 @@ description: Recreate the short video effect where a person reaches through an I
 
 Build a vertical intro in which a real person appears in front of a feed interface, taps a story circle, and opens the reveal clip. Match the user's reference tutorial when one is supplied; the timing and target circle are editable choices, not fixed values.
 
-Before editing, confirm that this agent has a working CapCut editing connection. If it does not, explain the missing setup and help prepare the assets, but do not claim to have created a CapCut draft. In Codex, direct first-time users to CapCut's [official installation and authorization guide](https://sf16-sg.tiktokcdn.com/obj/eden-sg/962370eh7nupenuhbo/capcut_codex_plugin/SKILL.md); resume editing only after the connection works.
+Before editing, confirm that this agent has a working CapCut editing connection. If Codex has no usable CapCut plugin, tell the user: **“CapCut isn't connected yet. I can set up the official CapCut plugin, guide you through account authorization, then continue this edit. Would you like me to do that?”** If they already asked for setup, continue without asking again. When setup is authorized, download and read CapCut's [official installation and authorization guide](https://sf16-sg.tiktokcdn.com/obj/eden-sg/962370eh7nupenuhbo/capcut_codex_plugin/SKILL.md) and follow it through first use before resuming this video request. Keep the user's opening screen, reach footage, reveal clip, and target story choice across any required chat handoff. If setup is declined or the connection remains unavailable, help prepare the assets but do not claim to have created a CapCut draft. In another agent, explain that a compatible CapCut editing connection is required.
 
 ## Assets
 
