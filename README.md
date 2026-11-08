@@ -7,7 +7,7 @@ Reusable skills that help Codex recreate specific video effects in CapCut. The r
 Install both skills with one command:
 
 ```bash
-gh skill install builderqiqi/capcut-video-skills --all --agent codex --scope user
+gh skill install qiqibuilds/capcut-video-skills --all --agent codex --scope user
 ```
 
 This uses the [GitHub CLI skill installer](https://cli.github.com/manual/gh_skill_install). Install GitHub CLI first if `gh` is not already available. Start a new Codex conversation after installing so it discovers the skills.
@@ -15,7 +15,7 @@ This uses the [GitHub CLI skill installer](https://cli.github.com/manual/gh_skil
 To install only one effect, replace `--all` with its name:
 
 ```bash
-gh skill install builderqiqi/capcut-video-skills constellation-text-overlay --agent codex --scope user
+gh skill install qiqibuilds/capcut-video-skills constellation-text-overlay --agent codex --scope user
 ```
 
 The skills tell Codex how to edit; they do not provide a CapCut connection. Enable and connect the CapCut plugin in Codex before asking it to create a cloud draft. An existing desktop-only project may need to be opened in the desktop editor.
